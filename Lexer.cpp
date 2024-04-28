@@ -116,7 +116,7 @@ std::vector<Token> tokenize(const std::string& sourceCode) {
 
 int main() {
     // Read the content of the file into a string
-    std::ifstream file("test.txt");
+    std::ifstream file("example.txt");
     std::string sourceCode((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
 
     // Tokenize the source code
